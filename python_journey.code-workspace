@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "name": "My Python Journey",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.formatOnSave": true
+  }
+}
