@@ -8,23 +8,34 @@ Python has two main loops:
 """
 
 # for loop
-for number in range(1, 6):
-    print("For loop number:", number)
+# for number in range(1, 6):
+#     print("For loop number:", number)
 
-# while loop
-count = 1
-while count <= 5:
-    print("While loop count:", count)
-    count += 1
+# # while loop
+# count = 1
+# while count <= 5:
+#     print("While loop count:", count)
+#     count += 1
 
-# break example
-for number in range(1, 10):
-    if number == 5:
-        break
-    print("Before break:", number)
+# # break example
+# for number in range(1, 10):
+#     if number == 5:
+#         break
+#     print("Before break:", number)
 
-# continue example
-for number in range(1, 6):
-    if number == 3:
-        continue
-    print("Skipping 3:", number)
+# # continue example
+# for number in range(1, 6):
+#     if number == 3:
+#         continue
+#     print("Skipping 3:", number)
+
+# #Print all the nos from 1 to 10 
+
+# for i in range(1,11):
+#     print(i,end=" ")
+
+# n=int(input("Enter your no:"))
+
+# for i in range(1,11):
+#     print(f"{n} x {i} = {n*i}")
+
