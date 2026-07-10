@@ -39,3 +39,32 @@ Python has two main loops:
 # for i in range(1,11):
 #     print(f"{n} x {i} = {n*i}")
 
+## Print all even no between 1-100
+ 
+# for i in range (1,101):
+#     if i%2==0:
+#         print(i)
+
+## print odd
+# for i in range(1,101):
+#     if i%2!=0:
+#         print(i)
+
+## factorial
+# n=int(input("Enter a no:"))
+# fact=1
+# for i in range(n,1,-1):
+#     fact=i*fact
+    
+# print(fact)
+
+##print factorial from 1-n
+# n=int(input("Enter a no:"))
+# fact=1
+# for i in range(1,n+1):
+#     fact=fact*i
+#     print(f"{i}! = {fact}")
+
+## print all the prime nos 1-100
+
+for num in range(2,)
