@@ -66,5 +66,91 @@ Python has two main loops:
 #     print(f"{i}! = {fact}")
 
 ## print all the prime nos 1-100
+ 
+# for num in range (2,100):
+#     prime=True
 
-for num in range(2,)
+#     for i in range(2,num):
+#         if num % i == 0:
+#             prime=False
+
+#     if prime:
+#         print(num)
+
+# for num in range(2,100):
+#     prime=True
+
+#     for i in range(2,num):
+#         if num%i==0:
+#             prime=False
+
+#     if prime:
+#         print(num)
+
+# for num in range(2,101):
+#     prime=True
+
+#     for i in range(2,num):
+#         if num%i==0:
+#             prime=False
+#     if prime:
+#         print(num)
+
+## check wether the given no is prime no
+
+# n=int(input("Enter your no:"))
+
+# if n<=1:
+#     print("Enter the again")
+# else:
+#     prime=True
+
+#     for i in range(2,n):
+#         if n%i==0:
+#             prime=False
+#             break
+#     if prime:
+#         print("Prime")
+#     else:
+#         print("Not prime")
+
+# n=int(input("Enter a no:"))
+
+# if n<=1:
+#     print("Prime")
+# else:
+#     prime=True
+#     for i in range(2,n):
+#         if n%i==0:
+#             prime=False
+#             break
+#     if prime:
+#         print("Prime")
+#     else:
+#         print("Not prime")
+
+# for num in range(2,101):
+#     prime=True
+
+#     for i in range(2,num):
+#         if num%i==0:
+#             prime=False
+#     if prime:
+#         print(num)
+
+
+n = int(input("Enter the no:"))
+
+first=0
+second=1
+total=0
+
+for i in range(n):
+    print(first,end=" ")
+    total=total+first
+
+    next_no=first+second
+    first=second
+    second=next_no
+
+print("Sum=",total)
