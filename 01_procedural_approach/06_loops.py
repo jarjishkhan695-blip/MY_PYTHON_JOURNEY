@@ -139,18 +139,72 @@ Python has two main loops:
 #         print(num)
 
 
-n = int(input("Enter the no:"))
+# n = int(input("Enter the no:"))
 
-first=0
-second=1
-total=0
+# first=0
+# second=1
+# total=0
 
-for i in range(n):
-    print(first,end=" ")
-    total=total+first
+# for i in range(n):
+#     print(first,end=" ")
+#     total=total+first
 
-    next_no=first+second
-    first=second
-    second=next_no
+#     next_no=first+second
+#     first=second
+#     second=next_no
 
-print("Sum=",total)
+# print("Sum=",total)
+
+# n = int(input("Enter your no:"))
+# first=0
+# second=1
+# total=0
+
+# for i in range(n):
+#     print(first)
+#     total+=first
+
+#     next_no=first+second
+#     first=second
+#     second=next_no
+
+# print("Sum=",total)
+
+# n=int(input("Enter your no:"))
+# count=0
+# for i in range(1,n+1):
+#     if n%i==0:
+#         count+=1
+       
+# if count==2:
+#         print("Prime")
+
+# else:
+#     print("Not prime")
+
+
+#find the factors
+# n=int(input("Enter your no:"))
+
+
+
+# for i in range(1,n+1):
+#     if n%i==0:
+#         print(i)
+
+# n=int(input("Enter your no:"))
+
+# count=0
+
+# for i in range(1,n+1):
+#     if n%i==0:
+#         count=count+1
+
+#         print(i,end=" ")
+
+# print("\nTotal count=",count)
+
+
+n=int(input("Enter your no:"))
+for i in range(1,11):
+    print(f"{n} x {i}={n*i}")
