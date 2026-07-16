@@ -205,6 +205,26 @@ Python has two main loops:
 # print("\nTotal count=",count)
 
 
-n=int(input("Enter your no:"))
-for i in range(1,11):
-    print(f"{n} x {i}={n*i}")
+# n=int(input("Enter your no:"))
+# for i in range(1,11):
+#     print(f"{n} x {i}={n*i}")
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+if a < b:
+    smaller = a
+else:
+    smaller = b
+
+hcf = 1
+
+for i in range(1, smaller + 1):
+    if a % i == 0 and b % i == 0:
+        hcf = i
+
+print("HCF =", hcf)
+
+
+
